@@ -12,7 +12,7 @@ def start(message):
     markup = telebot.types.ReplyKeyboardMarkup(resize_keyboard=True)
     btn = telebot.types.KeyboardButton(
         text="🚀 Открыть Rocket Queen Pro",
-        web_app=WebAppInfo(url="https://your-github-pages.url")
+        web_app=WebAppInfo(url="https://dden59.github.io/rocket-queen-pro/")
     )
     markup.add(btn)
     

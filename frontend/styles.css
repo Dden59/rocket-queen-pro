@@ -1,0 +1,31 @@
+body {
+    background: #000;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.gold-text {
+    background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.btn {
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 45%;
+    display: inline-block;
+}
+
+.win { background: #4CAF50; }
+.lose { background: #F44336; }
+
+.rocket {
+    height: 150px;
+    background: url('assets/rocket.gif') center no-repeat;
+}
